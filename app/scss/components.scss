@@ -1,0 +1,33 @@
+/* image */
+
+.image-outer {
+  display: flex;
+  margin: 0px 0px 30px 0px;
+}
+
+.image-inner {
+  position: relative;
+  flex: 0 0 34.756%;
+  padding-bottom: 42%;
+}
+
+.image-inner img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* button */
+
+.button button {
+  padding: 12px 40px;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  background-color: #d6ef0e;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
